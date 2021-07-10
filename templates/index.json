@@ -2,59 +2,123 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "Shop Charged Amino"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_label_2": ""
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
         "button"
-      ]
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Charged-Amino-820x360.gif",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "title": "Featured products"
+        "title": "Featured products",
+        "collection": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
       }
     },
     "image_text": {
       "type": "image-with-text",
       "blocks": {
         "heading": {
-          "type": "heading"
+          "type": "heading",
+          "settings": {
+            "heading": "New Flavor: Tropical Lime"
+          }
         },
         "text": {
-          "type": "text"
+          "type": "text",
+          "settings": {
+            "text": "<p>Get a taste of the tropics with our latest flavor of Charged Amino. <\/p>"
+          }
         },
         "button": {
-          "type": "button"
+          "type": "button",
+          "settings": {
+            "button_label": "Check it Out",
+            "button_link": "shopify:\/\/products\/charged-amino"
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
         "button"
-      ]
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ChargedAmino-07.gif",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16258838173105acaf": {
+      "type": "newsletter",
+      "blocks": {
+        "16258838173105acaf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "16258838173105acaf-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "16258838173105acaf-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16258838173105acaf-0",
+        "16258838173105acaf-1",
+        "16258838173105acaf-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "16258838173105acaf"
   ]
 }
